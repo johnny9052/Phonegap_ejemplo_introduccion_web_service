@@ -13,9 +13,11 @@ function enviarDatos() {
     
     //var ruta = "http://artesanosdelamontana.com/prueba/solicitudSuma.php";
     //var ruta = "http://localhost/prueba/solicitudSuma.php";
+    //var ruta = "http://192.168.1.11/prueba/solicitudSuma.php";
+    //var ruta = "http://localhost:80/prueba/solicitudSuma.php",
+        
     $.ajax({
-        type: 'post',
-        //url: "http://localhost:80/prueba/solicitudSuma.php",
+        type: 'post',        
         url: ruta,
         beforeSend: function () {
             //alert("accion antes de enviar");
